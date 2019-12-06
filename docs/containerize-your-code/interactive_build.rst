@@ -31,7 +31,7 @@ Here is an explanation of the options:
    --rm            # remove the container when we exit
    -it             # interactively attach terminal to inside of container
    -v $PWD:/code   # mount the current directory to /code
-   unbuntu:18.04   # image and tag from Docker Hub
+   ubuntu:18.04   # image and tag from Docker Hub
    /bin/bash       # shell to start inside container
 
 If this is your first time calling an Ubuntu 18.04 container on your laptop,
